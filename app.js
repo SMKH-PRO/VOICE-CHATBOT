@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   const apiClient = new ApiAi.ApiAiClient({accessToken: 'd2dcf2a481014da5b7558e01fb1508fb'});
 
   // Initial feedback message.
-  addBotItem("Hi! I'm ''SMKH TALKING ROBOT'',<br><b> TAP ON MIC ICON TO START TALKING WITH ME. <br><br><font style='font-family: Amaranth'>PLEASE <a href='https://facebook.com/1793417630949051' target='_blank'><img style='margin-bottom: -6px;' width='25px' alt='like' src='like.png'></a> ME ON <a target='_blank' href='https://facebook.com/1793417630949051'> FACEBOOK</a></font></b><br><br><font style='font-family: Hastro;'><br>Also Try :-<br></font> <br><fieldset id='fwow'> <a  href='https://play.google.com/store/apps/details?id=com.chatbot_by_kashan.smkh&hl=en' target='_blank' class='Hastro' style=' text-decoration: none; -webkit-text-stroke: 1px black; color: white; font-size: 20px;' ><b> SMKH CHATBOT ANDROID APPLICATION</b></a></fieldset>");
+  addBotItem("Hi! I'm ''SMKH TALKING ROBOT'',<br><b> TAP ON MIC ICON TO START TALKING WITH ME. <br><br><font style='font-family: Amaranth'>PLEASE <a href='https://www.facebook.com/139766653314757/' target='_blank'><img style='margin-bottom: -6px;' width='25px' alt='like' src='like.png'></a> ME ON <a target='_blank' href='https://facebook.com/139766653314757'> FACEBOOK</a></font></b><br><br>");
 
   var recognition = new webkitSpeechRecognition();
   var recognizedText = null;
